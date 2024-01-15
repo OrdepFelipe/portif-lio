@@ -9,14 +9,14 @@ Bem-vindo ao repositório do meu site pessoal, o meu espaço digital que represe
 ## Futuras Atualizações
 Planejo realizar importantes atualizações no meu site, conforme vou avançando no curso. Aqui estão algumas mudanças planejadas:
 
-1. Refatoração usando React
+1. Refatoração usando React  
 Estou explorando a implementação do React para trazer mais dinamismo e modularidade ao meu site. A refatoração permitirá uma manutenção mais fácil e uma experiência de usuário mais rica.
 
-2. Refatorar o código CSS utilizando o Less
+2. Refatorar o código CSS utilizando o Less  
 Quero refatorar o código CSS utilizando o Less, a fim de uma estilização mais eficiente e organizada.
 
-3. Automatização de Tarefas com Grunt
+3. Automatização de Tarefas com Grunt  
 Pretendo incorporar o Grunt para automatizar tarefas de desenvolvimento, como compilar o LESS para CSS. Isso facilitará o processo de desenvolvimento e manutenção.
 
-4. Introdução de Novos Projetos
+4. Introdução de Novos Projetos  
 À medida que eu embarcar em novos projetos, estarei adicionando detalhes sobre eles ao meu portfólio. Isso proporcionará uma visão mais abrangente das minhas habilidades e conquistas.
