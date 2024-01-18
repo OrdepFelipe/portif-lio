@@ -1,7 +1,10 @@
+//Aguarda até que o conteúdo da página HTML tenha sido completamente carregado
 document.addEventListener("DOMContentLoaded", function () {
+    //Obtendo Elementos do DOM:
     const carrossel = document.getElementById("carrossel");
     const itens = document.querySelectorAll(".carousel-item");
     const totalItens = itens.length;
+    //Mantém o índice do item atual exibido no carrossel.
     let currentIndex = 0;
 
     function nextItem() {
@@ -21,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         updateCarousel();
     }
-
+    // atualiza a posição do carrossel no DOM ajustando a propriedade transform do estilo CSS do elemento carrossel
     function updateCarousel() {
         const newTransformValue = -currentIndex * 100 + "%";
         carrossel.style.transform = "translateX(" + newTransformValue + ")";

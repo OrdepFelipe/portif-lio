@@ -30,8 +30,7 @@
     padding: 50px;
 }
 
-.home, 
-.projetos{
+.home{
     background-color: #ECECEC;
     width: 100%;
     height: 500px;
@@ -76,11 +75,10 @@ img{
     height: 40px
 }
 
-.sobre,
-.contato{
+.sobre{
     background-color: #462255;
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 .carousel-container {
@@ -139,13 +137,70 @@ button{
     cursor: pointer;
 }
 
-.projetos h3{
-    text-align: center;
-    padding-top: 60px;
+.projetos{
+    background-color: #ECECEC;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.projetos__container__descricao {
+    display: none;
+}
+
+.projetos__container__descricao--ativo {
+    display: block;
+}
+
+.projetos__container__header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projetos__container__header button{
+    background-color: #ECECEC;
+    color: black;
+    font-size: 24px;
+}
+
+.projetos__container__header h3{
     font-size: 44px;
 }
 
-.projetos button{
-    background-color: #ECECEC;
-    color: #462255;
+.projetos__item, a{
+    font-size: 24px;
+    padding: 20px;
+}
+
+.contato{
+    background-color: #462255;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contato h3{
+    color: #ffffff;
+    font-size: 44px;
+}
+
+.contato li{
+    list-style: none;
+}
+
+.contato svg{
+    height: 35px;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.contato__links{
+    display: flex;
+    justify-content: center;
 }
